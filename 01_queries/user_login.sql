@@ -1,8 +1,9 @@
 SELECT
   id,
   name,
+  email,
   PASSWORD
 FROM
   users
 WHERE
-  name = "tristanjacobs@gmail.com";
+  email = 'tristanjacobs@gmail.com';
